@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'DrawerVisualStates' do |ss|
-      ss.source_files = 'DrawerController/DrawerBarButtonItem.swift', 'DrawerController/AnimatedMenuButton.swift', 'DrawerController/DrawerVisualState.swift'
-      ss.dependency 'DrawerController/Core'
-    end
+  	ss.source_files = 'DrawerController/DrawerBarButtonItem.swift', 'DrawerController/AnimatedMenuButton.swift', 'DrawerController/DrawerVisualState.swift'
+  	ss.dependency 'DrawerController/Core'
+  end
 end
